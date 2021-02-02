@@ -1,0 +1,7 @@
+
+pub trait Command {
+    pub fn execute();
+}
+
+struct Quit;
+
